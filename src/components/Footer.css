@@ -1,0 +1,18 @@
+footer {
+    background-color: #182d69;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-wrapper p {
+    color: #FFF;
+    font-size: 14px;
+}
+
+.footer-wrapper p span {
+    font-weight: 600;
+    color: #000035;
+}
