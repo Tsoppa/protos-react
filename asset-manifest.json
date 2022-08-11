@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/protos-react/static/css/main.bcd9d7d5.css",
-    "main.js": "/protos-react/static/js/main.de6d4a01.js",
-    "static/media/protos1.jpg": "/protos-react/static/media/protos1.c1d27c4642472487ba7f.jpg",
+    "main.css": "/protos-react/static/css/main.4d788b21.css",
+    "main.js": "/protos-react/static/js/main.3a9fd1f8.js",
+    "static/media/protos2.jpg": "/protos-react/static/media/protos2.772b2be48887d423602a.jpg",
+    "static/media/protos3.jpg": "/protos-react/static/media/protos3.ddefe013c19032e5970b.jpg",
+    "static/media/protos1.jpg": "/protos-react/static/media/protos1.d661413facef78a0b94a.jpg",
+    "static/media/protos4.jpg": "/protos-react/static/media/protos4.d00ae9495b9cb148d180.jpg",
     "static/media/cyberArenaWhite.png": "/protos-react/static/media/cyberArenaWhite.f3a39fdaa9c5773d566a.png",
-    "static/media/protos2.jpg": "/protos-react/static/media/protos2.9cdbf3bdad830c80d98a.jpg",
     "static/media/protoslogo.png": "/protos-react/static/media/protoslogo.ed585d13f39395eb212e.png",
-    "static/media/protos3.jpg": "/protos-react/static/media/protos3.e4c1f5921083d94b8034.jpg",
-    "static/media/protos4.jpg": "/protos-react/static/media/protos4.f1237f1051dd08a32eb7.jpg",
     "static/media/tekkenWhite.png": "/protos-react/static/media/tekkenWhite.527bb8b6c7bc7c7668a1.png",
     "static/media/efootballWhite.png": "/protos-react/static/media/efootballWhite.ad3c221282f77a5051ae.png",
     "static/media/csgoWhite.png": "/protos-react/static/media/csgoWhite.f190df3904d6d9e21713.png",
     "static/media/dotaWhite.png": "/protos-react/static/media/dotaWhite.7442374700ae1b3554c4.png",
     "index.html": "/protos-react/index.html",
-    "main.bcd9d7d5.css.map": "/protos-react/static/css/main.bcd9d7d5.css.map",
-    "main.de6d4a01.js.map": "/protos-react/static/js/main.de6d4a01.js.map"
+    "main.4d788b21.css.map": "/protos-react/static/css/main.4d788b21.css.map",
+    "main.3a9fd1f8.js.map": "/protos-react/static/js/main.3a9fd1f8.js.map"
   },
   "entrypoints": [
-    "static/css/main.bcd9d7d5.css",
-    "static/js/main.de6d4a01.js"
+    "static/css/main.4d788b21.css",
+    "static/js/main.3a9fd1f8.js"
   ]
 }
