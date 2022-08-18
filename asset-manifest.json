@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/protos-react/static/css/main.ab42682e.css",
-    "main.js": "/protos-react/static/js/main.4e184ebb.js",
+    "main.css": "/protos-react/static/css/main.d9839f69.css",
+    "main.js": "/protos-react/static/js/main.feb343b0.js",
     "static/media/protos2.jpg": "/protos-react/static/media/protos2.772b2be48887d423602a.jpg",
     "static/media/protos3.jpg": "/protos-react/static/media/protos3.ddefe013c19032e5970b.jpg",
     "static/media/protos1.jpg": "/protos-react/static/media/protos1.d661413facef78a0b94a.jpg",
@@ -13,11 +13,11 @@
     "static/media/csgoWhite.png": "/protos-react/static/media/csgoWhite.f190df3904d6d9e21713.png",
     "static/media/dotaWhite.png": "/protos-react/static/media/dotaWhite.7442374700ae1b3554c4.png",
     "index.html": "/protos-react/index.html",
-    "main.ab42682e.css.map": "/protos-react/static/css/main.ab42682e.css.map",
-    "main.4e184ebb.js.map": "/protos-react/static/js/main.4e184ebb.js.map"
+    "main.d9839f69.css.map": "/protos-react/static/css/main.d9839f69.css.map",
+    "main.feb343b0.js.map": "/protos-react/static/js/main.feb343b0.js.map"
   },
   "entrypoints": [
-    "static/css/main.ab42682e.css",
-    "static/js/main.4e184ebb.js"
+    "static/css/main.d9839f69.css",
+    "static/js/main.feb343b0.js"
   ]
 }
