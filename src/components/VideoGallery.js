@@ -7,7 +7,7 @@ import "swiper/css/navigation";
 
 const VideoGallery = () => {
   return (
-    <div className="videogallery-cont">
+    <div className="videogallery-cont" id="media-scroll">
       <div className="videogallery-wrapper">
         <h3>VIDEO GALLERY</h3>
         <Swiper
@@ -16,46 +16,45 @@ const VideoGallery = () => {
           slidesPerView={4}
           navigation={true}
           breakpoints={{
-            640: {
+            0: {
               slidesPerView: 1,
-
-              spaceBetween: 20,
+              spaceBetween: 10,
             },
-            960: {
+            600: {
               slidesPerView: 2,
-              spaceBetween: 40,
+              spaceBetween: 10,
             },
-            1024: {
+            950: {
               slidesPerView: 3,
-              spaceBetween: 50,
+              spaceBetween: 15,
             },
-            1650: {
+            1200: {
               slidesPerView: 4,
-              spaceBetween: 50,
+              spaceBetween: 25,
             },
           }}
           modules={[Navigation]}
         >
           <SwiperSlide>
-            <iframe title="This is a unique title" width="384" height="216" src="https://www.youtube.com/embed/fWTm3GG91PY"></iframe>
+            <iframe title="This is a unique title" width="384px" height="216px" src="https://www.youtube.com/embed/fWTm3GG91PY" frameborder="0" allowFullScreen />
           </SwiperSlide>
           <SwiperSlide>
-            <iframe title="This is a unique title" width="384" height="216" src="https://www.youtube.com/embed/fWTm3GG91PY"></iframe>
+            <iframe title="This is a unique title" width="384px" height="216px" src="https://www.youtube.com/embed/fWTm3GG91PY" frameborder="0" allowFullScreen />
           </SwiperSlide>
           <SwiperSlide>
-            <iframe title="This is a unique title" width="384" height="216" src="https://www.youtube.com/embed/fWTm3GG91PY"></iframe>
+            <iframe title="This is a unique title" width="384px" height="216px" src="https://www.youtube.com/embed/fWTm3GG91PY" frameborder="0" allowFullScreen />
           </SwiperSlide>
           <SwiperSlide>
-            <iframe title="This is a unique title" width="384" height="216" src="https://www.youtube.com/embed/fWTm3GG91PY"></iframe>
+            <iframe title="This is a unique title" width="384px" height="216px" src="https://www.youtube.com/embed/fWTm3GG91PY" frameborder="0" allowFullScreen />
           </SwiperSlide>
           <SwiperSlide>
-            <iframe title="This is a unique title" width="384" height="216" src="https://www.youtube.com/embed/fWTm3GG91PY"></iframe>
+            <iframe title="This is a unique title" width="384px" height="216px" src="https://www.youtube.com/embed/fWTm3GG91PY" frameborder="0" allowFullScreen />
           </SwiperSlide>
           <SwiperSlide>
-            <iframe title="This is a unique title" width="384" height="216" src="https://www.youtube.com/embed/fWTm3GG91PY"></iframe>
+            <iframe title="This is a unique title" width="384px" height="216px" src="https://www.youtube.com/embed/fWTm3GG91PY" frameborder="0" allowFullScreen />
           </SwiperSlide>
           <SwiperSlide>
-            <iframe title="This is a unique title" width="384" height="216" src="https://www.youtube.com/embed/fWTm3GG91PY"></iframe>
+            <iframe title="This is a unique title" width="384px" height="216px" src="https://www.youtube.com/embed/fWTm3GG91PY" frameborder="0" allowFullScreen />
           </SwiperSlide>
         </Swiper>
       </div>

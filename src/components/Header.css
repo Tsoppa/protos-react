@@ -2,7 +2,7 @@ header {
     position: fixed;
     background: linear-gradient(180deg, rgba(17,17,17,1) 0%, rgba(17,17,17,0) 100%);
     width: 100vw;
-    z-index: 1;
+    z-index: 100;
 }
 
 .header-cont {
@@ -32,6 +32,10 @@ header {
 .header-logo h2 span {
     font-weight: 800;
     color: #fff;
+}
+
+nav {
+    display: flex;
 }
 
 nav ul {
@@ -68,4 +72,73 @@ nav ul li:hover {
 
 .header-socials ul li a:hover {
     color: #2763d5;
+}
+
+.nav__toggler div {
+    width: 2.5rem;
+    height: .2rem;
+    margin: .4rem;
+    background: #FFF;
+    transition: .4s ease-in;
+}
+
+.nav__toggler {
+    cursor: pointer;
+    display: none;
+}
+
+@media screen and (max-width: 1024px) {
+    /* shesacvlelia max-width is parametri */
+    .header-socials {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .nav__toggler {
+        display: block;
+    }
+
+    .nav__menu {
+        position: fixed;
+        top: 12.5vh;
+        right: 0;
+        width: 50vw;
+        height: 87.5vh;
+        backdrop-filter: blur(40px);
+        flex-direction: column;
+        transform: translateX(100%);
+        transition: .5s ease-in;
+        justify-content: space-around;
+        padding-bottom: 200px;
+        border-radius: 40px 0 0 0;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .header-logo img {
+        width: 60px;
+    }
+
+    .header-logo h2 {
+        font-size: .9rem;
+    }
+}
+
+/* nav active class */
+.nav__active {
+    transform: translateX(0);
+}
+
+/* toggler icon animation */
+.toggle .line1 {
+    transform: rotate(-45deg) translate(-4px, 5px);
+}
+
+.toggle .line2 {
+    opacity: 0;
+}
+
+.toggle .line3 {
+    transform: rotate(45deg) translate(-4px, -5px);
 }

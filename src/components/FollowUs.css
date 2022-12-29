@@ -1,13 +1,22 @@
 .followus-cont {
-    background-color: #000035;
+    /* background-color: #000035; */
+    background-image: url("../assets/protosPattern1.png");
     height: 250px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    /* align-items: center; */
 }
 
 .followus-wrapper {
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px; */
+}
+
+.followus-social-list {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -17,6 +26,10 @@
 
 .followus-wrapper h3 {
     color: #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 .followus-wrapper h3::before,
@@ -27,7 +40,7 @@
     width: 31rem;
     margin: 0 1rem;
     transform: translateY(-1rem);
-    margin-bottom: -0.70rem;
+    margin-bottom: -2rem;
 }
 
 .followus-wrapper ul {
@@ -60,8 +73,35 @@
     border-radius: 25px;
 }
 
+.followus-contactus:hover {
+    background-color: #FFF;
+    color: #182d69;
+    transition: all 0.3s ease 0s;
+}
+
 .followus-contactus a {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+    
+}
+
+@media screen and (max-width: 480px) {
+    .followus-cont {
+        height: 220px;
+    }
+
+    .followus-wrapper ul li a {
+        font-size: 25px;
+        padding: 0 10px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .followus-wrapper h3 {
+        font-size: .8rem;
+    }
 }

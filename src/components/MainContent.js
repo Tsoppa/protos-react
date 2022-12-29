@@ -2,6 +2,7 @@ import React, {useState} from 'react';
 import './MainContent.css';
 import {FaArrowLeft, FaArrowRight} from 'react-icons/fa';
 import { SliderData } from './SliderData';
+import { Link } from 'react-scroll';
 
 const MainContent = ({slides}) => {
 
@@ -22,6 +23,7 @@ const MainContent = ({slides}) => {
     return null
   }
 
+
   return (
     <section className="slider">
       <FaArrowLeft className="left-arrow" onClick={prevSlide} />
@@ -33,6 +35,9 @@ const MainContent = ({slides}) => {
           </div>
         )
       })}
+      <div className="explore-button">
+        <Link to="about-scroll" spy={true} smooth={true} offset={-90} duration={100}>Explore</Link>
+      </div>
     </section>
   )
 }

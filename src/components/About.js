@@ -4,7 +4,7 @@ import ProtosLogo from '../assets/protoslogo.png';
 
 const About = () => {
   return (
-    <div className="about-cont">
+    <div className="about-cont" id="about-scroll">
       <div className="about-wrapper">
         <img src={ProtosLogo} alt="" />
         <div className="about-texts">

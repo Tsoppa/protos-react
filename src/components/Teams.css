@@ -1,22 +1,28 @@
 .teams-cont {
-    background-color: #182d69;
-    height: 400px;
+    /* background-color: #182d69; */
+    background-color: #06183b;
+    /* height: 400px; */
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    /* align-items: center; */
 }
 
 .teams-up-wrapper {
-    display: flex;
+    /* display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    padding-top: 40px;
+    align-items: center; */
+    padding-top: 60px;
 }
 
 .teams-up-wrapper h3 {
     color: #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* padding-bottom: 50px; */
 }
 
 .teams-up-wrapper h3::before,
@@ -27,7 +33,7 @@
     width: 30rem;
     margin: 0 1rem;
     transform: translateY(-1rem);
-    margin-bottom: -0.70rem;
+    margin-bottom: -2rem;
 }
 
 .teams-up-wrapper ul {
@@ -37,10 +43,14 @@
     padding-top: 40px;
 }
 
+.teams-up-wrapper ul li {
+    padding: 0 14px;
+}
+
 .teams-up-wrapper ul li img {
-    filter: invert(71%) sepia(60%) saturate(367%) hue-rotate(166deg) brightness(99%) contrast(89%);
     width: 60px;
     cursor: pointer;
+    filter: invert(71%) sepia(60%) saturate(367%) hue-rotate(166deg) brightness(99%) contrast(89%);
 }
 
 .teams-up-wrapper ul li img:hover {
@@ -52,13 +62,29 @@
 }
 
 .teams-info-wrapper {
-    padding-top: 40px;
-}
-
-.dota-team-members, .csgo-team-members, .efootball-team-members, .tekken-team-members {
     display: flex;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
+    padding: 70px 0;
+}
+
+.dota-team-members {
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row; */
+    /* width: 100%; */
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    gap: 15px;
+    /* grid-template-columns: 1fr 1fr; */
+    grid-template-columns: auto auto auto auto auto;
+}
+
+.csgo-team-members, .efootball-team-members, .tekken-team-members {
+
 }
 
 .player-up {
@@ -71,7 +97,7 @@
 
 .player-title {
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
     align-items: center;
 }
 
@@ -80,11 +106,52 @@
 }
 
 .player-title h4 {
-    padding-left: 10px;
+    padding-left: 8px;
     color: #ff0d1d;
     font-size: 30px;
 }
 
-.player-socials {
+.player-socials a {
     color: #FFF;
+}
+
+@media screen and (max-width: 1024px) {
+    .teams-up-wrapper {
+        padding-top: 40px;
+    }
+    
+    .teams-info-wrapper {
+        padding: 40px 0;
+    }
+
+    .dota-team-members {
+        gap: 8px;
+        grid-template-columns: auto auto;
+    }
+
+    .player-title img {
+        width: 30px;
+    }
+
+    .player-title h4 {
+        font-size: 20px;
+    }
+
+    .player-up p {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+}
+
+@media screen and (max-width: 480px) {
+
+}
+
+@media screen and (max-width: 320px) {
+    .teams-up-wrapper h3 {
+        font-size: .8rem;
+    }
 }

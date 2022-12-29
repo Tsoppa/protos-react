@@ -1,5 +1,6 @@
 footer {
-    background-color: #182d69;
+    /* background-color: #182d69; */
+    background-color: #06183b;
     height: 50px;
     display: flex;
     flex-direction: column;
@@ -10,9 +11,31 @@ footer {
 .footer-wrapper p {
     color: #FFF;
     font-size: 14px;
+    text-align: center;
 }
 
 .footer-wrapper p span {
     font-weight: 600;
-    color: #000035;
+    /* color: #000035; */
+    color: #02081a;
+}
+
+@media screen and (max-width: 480px) {
+    footer {
+        height: 40px;
+    }
+
+    .footer-wrapper p {
+        font-size: 9px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    footer {
+        height: 30px;
+    }
+
+    .footer-wrapper p {
+        font-size: 7px;
+    }
 }
